@@ -1,34 +1,13 @@
-- database
+- [首页](/)
+- 中间件
+- 云原生
+- 分布式
+- 基础
+- 数据库
   - mysql
-      - [配置mysql允许远程连接的方法](/database/mysql/配置mysql允许远程连接的方法.md)
+      - [配置mysql允许远程连接的方法](/notes/数据库/mysql/配置mysql允许远程连接的方法.md)
   - oracle
-      - [Oracle常用命令](/database/oracle/Oracle常用命令.md)
-      - [存储过程](/database/oracle/存储过程.md)
-- java
-  - appache
-      - [Apache Commons包详解](/java/appache/Apache Commons包详解.md)
-    - [fastJson](/java/fastJson.md)
-  - springboot
-    - rabbitmq
-        - [spring-rabbitMQ配置文件参数配置](/java/springboot/rabbitmq/spring-rabbitMQ配置文件参数配置.md)
-- operatingSystem
-  - centOS
-      - [centOS安装Docker](/operatingSystem/centOS/centOS安装Docker.md)
-      - [常用命令](/operatingSystem/centOS/常用命令.md)
-      - [配置JDK环境变量](/operatingSystem/centOS/配置JDK环境变量.md)
-      - [配置阿里云yum源](/operatingSystem/centOS/配置阿里云yum源.md)
-  - linux脚本
-      - [文件压缩和解压](/operatingSystem/linux脚本/文件压缩和解压.md)
-  - windows
-      - [win10命令](/operatingSystem/windows/win10命令.md)
-  - [README](/README.md)
-- softUsing
-  - git
-      - [git命令](/softUsing/git/git命令.md)
-  - idea
-      - [idea常用快捷键](/softUsing/idea/idea常用快捷键.md)
-      - [idea快捷键2](/softUsing/idea/idea快捷键2.md)
-    - [PLSQL设置及快捷键用法](/softUsing/PLSQL设置及快捷键用法.md)
-    - [Typora快捷键使用](/softUsing/Typora快捷键使用.md)
-  - [_coverpage](/_coverpage.md)
-  - [_navbar](/_navbar.md)
+      - [Oracle常用命令](/notes/数据库/oracle/Oracle常用命令.md)
+      - [存储过程](/notes/数据库/oracle/存储过程.md)
+- 框架
+- 算法

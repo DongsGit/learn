@@ -13,7 +13,7 @@
   <div id="app">加载中</div>
   <script>
     window.$docsify = {
-      name: '你好',
+      name: 'MrDong',
       // coverpage: true,
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md',
@@ -21,7 +21,9 @@
       },
       loadNavbar: true,
       loadSidebar: true,
+      //目录展示层级
       subMaxLevel: 5,
+      //页面加载后侧边栏目录折叠
       plugins: [
         function(hook, vm) {
           hook.beforeEach(function(content) {
@@ -38,5 +40,10 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <!-- 复制到粘贴板 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- 图片缩放 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 代码高亮 -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
 </body>
 </html>

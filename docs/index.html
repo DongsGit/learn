@@ -7,16 +7,36 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">加载中</div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      name: '你好',
+      // coverpage: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',
+        '/.*/_navbar.md': '/_navbar.md'
+      },
+      loadNavbar: true,
+      loadSidebar: true,
+      subMaxLevel: 5,
+      plugins: [
+        function(hook, vm) {
+          hook.beforeEach(function(content) {
+            return content;
+          });
+        },
+        window.DocsifySidebarCollapse
+      ]
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- 侧边栏折叠 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <!-- 复制到粘贴板 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 </body>
 </html>

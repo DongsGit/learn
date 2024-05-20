@@ -3,6 +3,8 @@
 - 云原生
 - 分布式
 - 基础
+    - [JVM](/notes/基础/JVM.md)
+    - [JVM调优](/notes/基础/JVM调优.md)
     - [多线程](/notes/基础/多线程.md)
 - 数据库
   - mysql

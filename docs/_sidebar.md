@@ -6,6 +6,8 @@
     - [JVM](/notes/基础/JVM.md)
     - [JVM调优](/notes/基础/JVM调优.md)
     - [多线程](/notes/基础/多线程.md)
+    - [设计模式](/notes/基础/设计模式.md)
+    - [集合](/notes/基础/集合.md)
 - 数据库
   - mysql
       - [配置mysql允许远程连接的方法](/notes/数据库/mysql/配置mysql允许远程连接的方法.md)
@@ -13,4 +15,7 @@
       - [Oracle常用命令](/notes/数据库/oracle/Oracle常用命令.md)
       - [存储过程](/notes/数据库/oracle/存储过程.md)
 - 框架
+    - [Spring](/notes/框架/Spring.md)
+    - [SpringBoot](/notes/框架/SpringBoot.md)
+    - [SpringCloud](/notes/框架/SpringCloud.md)
 - 算法

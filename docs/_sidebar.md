@@ -1,7 +1,9 @@
 - [首页](/)
 - 中间件
+    - [Redis](/notes/中间件/Redis.md)
 - 云原生
 - 分布式
+    - [分布式](/notes/分布式/分布式.md)
 - 基础
     - [JVM](/notes/基础/JVM.md)
     - [JVM调优](/notes/基础/JVM调优.md)
@@ -18,4 +20,5 @@
     - [Spring](/notes/框架/Spring.md)
     - [SpringBoot](/notes/框架/SpringBoot.md)
     - [SpringCloud](/notes/框架/SpringCloud.md)
+    - [SpringMVC](/notes/框架/SpringMVC.md)
 - 算法

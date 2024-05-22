@@ -1,4 +1,4 @@
-### Redis 有哪些数据类型（[参考](https://www.cnblogs.com/neooelric/p/9621736.html)）
+### Redis 有哪些数据类型
 * String(字符串)
 * List(列表)
 * Hash(哈希)
@@ -13,7 +13,7 @@
 * 哨兵（Sentinel）模式
 * 集群（Cluster）模式
 
-### Redis与MySQL双写一致性如何保证（[参考](https://juejin.cn/post/6964531365643550751#heading-6)）
+### Redis与MySQL双写一致性如何保证
 
 ### 什么是缓存穿透、击穿和雪崩
 * 缓存穿透：访问的数据既不在缓存也不在数据库，解决方案:

@@ -7,19 +7,33 @@ const sidebarPath = path.resolve(__dirname, 'docs', '_sidebar.md');
 function generateSidebar(dir, baseDir = notesPath, level = 0) {
   const items = fs.readdirSync(dir).filter(item => item !== '_sidebar.md');
   let sidebarContent = '';
+  let directories = [];
+  let files = [];
 
+  // Separate directories and files
   items.forEach(item => {
     const fullPath = path.join(dir, item);
     const stat = fs.statSync(fullPath);
 
     if (stat.isDirectory()) {
-      sidebarContent += `${'  '.repeat(level)}- ${item}\n`;
-      sidebarContent += generateSidebar(fullPath, baseDir, level + 1);
+      directories.push(item);
     } else if (stat.isFile() && item.endsWith('.md')) {
-      const fileName = item.slice(0, -3);
-      const relativePath = fullPath.replace(baseDir, '').replace(/\\/g, '/');
-      sidebarContent += `${'  '.repeat(level + 1)}- [${fileName}](/notes${relativePath})\n`;
+      files.push(item);
     }
+  });
+
+  // Process directories first
+  directories.forEach(dirName => {
+    const fullPath = path.join(dir, dirName);
+    sidebarContent += `${'  '.repeat(level)}- ${dirName}\n`;
+    sidebarContent += generateSidebar(fullPath, baseDir, level + 1);
+  });
+
+  // Process files next
+  files.forEach(fileName => {
+    const fileBaseName = fileName.slice(0, -3);
+    const relativePath = path.relative(baseDir, path.join(dir, fileName)).replace(/\\/g, '/');
+    sidebarContent += `${'  '.repeat(level)}- [${fileBaseName}](/notes/${relativePath})\n`;
   });
 
   return sidebarContent;

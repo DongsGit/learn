@@ -1,24 +1,4 @@
 - [首页](/)
-- 中间件
-  - [RabbitMQ](/notes/中间件/RabbitMQ.md)
-  - [Redis](/notes/中间件/Redis.md)
-- 云原生
-- 分布式
-  - [分布式](/notes/分布式/分布式.md)
-- 基础
-  - [JVM](/notes/基础/JVM.md)
-  - [JVM调优](/notes/基础/JVM调优.md)
-  - [多线程](/notes/基础/多线程.md)
-  - [设计模式](/notes/基础/设计模式.md)
-  - [集合](/notes/基础/集合.md)
-- 数据库
-  - [MySQL](/notes/数据库/MySQL.md)
-  - [事物](/notes/数据库/事物.md)
-- 框架
-  - [MyBatis](/notes/框架/MyBatis.md)
-  - [Spring](/notes/框架/Spring.md)
-  - [SpringBoot](/notes/框架/SpringBoot.md)
-  - [SpringCloud](/notes/框架/SpringCloud.md)
-  - [SpringMVC](/notes/框架/SpringMVC.md)
-- 算法
+- 面试
+  - [Java面试](/notes/面试/Java面试.md)
 - [开发时遇到的问题](/notes/开发时遇到的问题.md)

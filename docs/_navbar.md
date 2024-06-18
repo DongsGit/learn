@@ -1,10 +1,7 @@
-<!-- _navbar.md -->
-* Java
-  * Spring
-  * SpringBoot
-  * SpringCloud
-* JVM
-* 数据库
-  * MySQL
-  * Oracle
-* 高并发
+- [首页](/)
+- Java
+  - [JVM](/notes/Java/JVM.md)
+- 其他
+  - [开发时遇到的问题](/notes/其他/开发时遇到的问题.md)
+- 面试
+  - [Java面试](/notes/面试/Java面试.md)

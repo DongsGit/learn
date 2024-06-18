@@ -2,10 +2,10 @@ const fs = require('fs');
 const path = require('path');
 
 const notesPath = path.resolve(__dirname, 'docs/notes');
-const sidebarPath = path.resolve(__dirname, 'docs', '_sidebar.md');
+const sidebarPath = path.resolve(__dirname, 'docs', '_navbar.md');
 
 function generateSidebar(dir, baseDir = notesPath, level = 0) {
-  const items = fs.readdirSync(dir).filter(item => item !== '_sidebar.md');
+  const items = fs.readdirSync(dir).filter(item => item !== '_navbar.md');
   let sidebarContent = '';
   let directories = [];
   let files = [];

@@ -1,6 +1,7 @@
 - [首页](/)
 - Java
   - [JVM](/notes/Java/JVM.md)
+  - [算法例题](/notes/Java/算法例题.md)
 - 其他
   - [开发时遇到的问题](/notes/其他/开发时遇到的问题.md)
 - 面试
